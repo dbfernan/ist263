@@ -1,0 +1,39 @@
+h1, h2 {color:#D4ADFC;}
+a:link {color:#05BFDB;}
+body{
+    background-color:#2A2F4F;
+    color:#FDE2F3;
+}
+nav{background-color:#1D267D;}
+nav a{color:#05BFDB;}
+nav a:hover{background-color:#551A8B}
+nav{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+img{
+    max-width: 50%;
+    max-height: 50%
+}
+.qrt{
+    float: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
