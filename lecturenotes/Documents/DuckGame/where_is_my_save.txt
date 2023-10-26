@@ -1,0 +1,7 @@
+Hey! Keeping save data in the Documents folder was causing all kinds
+of issues for people, and it's with great sadness that I had to move your data.
+Don't worry, it still exists- your data is now located here:
+
+C:/Users/dbazi/AppData/Roaming/DuckGame/
+
+Any save data still located in this folder is for the old version (pre-2020) of Duck Game.
