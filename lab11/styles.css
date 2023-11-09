@@ -4,7 +4,7 @@ body{
     background-color:#2A2F4F;
     color:#FDE2F3;
 }
-nav{background-color:#7d1d1d;}
+nav{background-color:#1D267D;}
 
 nav a{color:#05BFDB;}
 nav a:hover{background-color:#551A8B}
@@ -41,7 +41,7 @@ img{
     span{display: none;}
 }
 .skip{
-    background-color: orangered;
+    background-color: #7d1d1d;
     padding: 5px;
     border: 1px solid #000000;
     text-decoration: none;
