@@ -40,3 +40,15 @@ img{
 @media only screen and (max-width: 800px){
     span{display: none;}
 }
+.skip{
+    background-color: orangered;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: -999px;
+}
+.skip:focus{
+    left: 10px;
+}
