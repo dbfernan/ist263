@@ -1,0 +1,74 @@
+h1, h2 {color:#D1ADF7;}
+a:link {color:#00daee;}
+body{
+    background-color:#222544;
+    color:#FDE2F3;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.center{
+    text-align: center;
+}
+nav{background-color:#26257F;}
+nav a{color:#05BFDB;}
+nav a:hover{color:#9269e4}
+nav{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.taskbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.contacts{
+    display: flex;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.imborder{
+    padding: 10px;
+    border: 1px solid #FFFFFFbf;
+}
+div{
+    padding: 5px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col1{
+    flex-direction: column;
+    flex-basis: 60%;
+    flex: 1;
+}
+.col2{
+    flex-direction: column;
+    flex-basis: 40%;
+}
+@media only screen and (max-width:800px){
+    .taskbar{display: block}
+    .contacts{display: block}
+    body{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+.skip{
+    background-color: #7d1d1d;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: -999px;
+}
+.skip:focus{
+    left: 10px;
+}
