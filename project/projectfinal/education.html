@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David Fernando - Educational Background</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="master.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico">
+        <style>
+            #ischool{
+                max-width: 50%;
+            }
+            #su{
+                max-width: 10%;
+            }
+            #box1{
+                width: 150px;
+                height: 150px;
+                line-height: 150px;
+                background-color: #ff3636;
+                text-align: center;
+                text-shadow: 2px 2px 2px black;
+                transition-duration: 1s;
+            }
+            #box1:hover{
+                background-color: #FF6b6b;
+            }
+            #box2{
+                width: 150px;
+                height: 150px;
+                line-height: 150px;
+                background-color: #6577ff;
+                text-align: center;
+                text-shadow: 2px 2px 2px black;
+                rotate: 0deg;
+                transition: rotate 3s cubic-bezier(0.3, 0.65, 0.165, 1)
+            }
+            #box2:hover{
+                rotate: -720deg;
+            }
+            #box3{
+                width: 150px;
+                height: 150px;
+                line-height: 150px;
+                background-color: #64d670;
+                text-align: center;
+                text-shadow: 2px 2px 2px black;
+                opacity: 100%;
+                transition-duration: 1s;
+            }
+            #box3:hover{
+                opacity: 0%;
+            }
+        </style>
+    </head>
+    <body style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+        <div class="innercursor"></div>
+        <div class="outercursor"></div>
+        <script src="script.js"></script>
+        <nav class="taskbar">
+            <div>
+                <a href="#main" tabindex="1" class="skip">Skip to Content</a><br>
+            </div>
+            <div>
+                <a href="index.html" tabindex="2">Home</a>
+            </div>
+            <div>
+                <a href="../projectfinal/hobbies.html" tabindex="3">Hobbies</a>
+            </div>
+            <div>
+                <a href="education.html" tabindex="4">Education</a>
+            </div>
+        </nav>
+    <hr>
+        <div class="row">
+            <div class="col1">
+                <h1 id="main">Educational Background</h1>
+                <p>
+                    I’m currently a Sophomore at Syracuse University studying Applied Data Analytics in the iSchool. I graduated High School with an Honors Regents Diploma, and a Mastery in Math and Science. I have coding experience with Python, C+, Java, HTML, and even took AP Computer Science during High Schoool. I've also gained practical experience introducing Middle Schoolers to the basics of Python programming.<br><br>
+        
+                    On campus, I'm a member of the Phi Eta Sigma Honor Society, Filipino-Student Association, and Tennis Analytics Club.
+                </p>
+            </div>
+            <div class="col2">
+                <img id="su" src="../media/logo.png" alt="Syracuse University Logo">
+                <img id="ischool" src="../media/ischool.jpg" alt="SU iSchool Logo">
+            </div>
+        </div>
+        <h2>Here are some examples of what HTML, CSS, and JavaScript can do:</h2>
+        <div class="row">
+            <div class="box" id="box1">
+                Hover Me
+            </div>
+            <div class="box" id="box2">
+                Hover Me
+            </div>
+            <div class="box" id="box3">
+                Hover Me
+            </div>
+        </div>
+    <hr>
+        <h2>Contacts:</h2>
+        <nav class="contacts">
+            <div>
+                <a href="https://www.linkedin.com/in/david-fernando-47372024b/" tabindex="5">Email</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/david-fernando-47372024b/" tabindex="6">LinkedIn</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/david-fernando-47372024b/" tabindex="7">Handshake</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/david-fernando-47372024b/" tabindex="8">Instagram</a>
+            </div>
+        </nav>
+        &copy; 2023
+    </body>
+</html>
