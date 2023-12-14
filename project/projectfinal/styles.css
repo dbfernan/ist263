@@ -72,6 +72,35 @@ div{
     flex-direction: column;
     margin: 20px;
 }
+#box1:hover{
+    background-color: #FF6b6b;
+}
+#box2{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: #6577ff;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    rotate: 0deg;
+    transition: rotate 3s cubic-bezier(0.3, 0.65, 0.165, 1)
+}
+#box2:hover{
+    rotate: -720deg;
+}
+#box3{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: #64d670;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    opacity: 100%;
+    transition-duration: 1s;
+}
+#box3:hover{
+    opacity: 0%;
+}
 @media only screen and (max-width:800px){
     .taskbar{display: block}
     .contacts{display: block}
