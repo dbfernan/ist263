@@ -1,4 +1,10 @@
-h1, h2 {color:#D1ADF7;}
+h1, h2 {
+    color:#D1ADF7;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
 a:link {color:#00daee;}
 html{
     cursor: none;
@@ -28,6 +34,7 @@ nav{
         #243b85);
     padding: 10px;
     margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
 }
 .taskbar{
     display: flex;
@@ -52,6 +59,7 @@ img{
 }
 div{
     padding: 5px;
+    font-family: 'Lato', sans-serif;
 }
 .row {
     display: flex;
